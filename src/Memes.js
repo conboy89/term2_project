@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Stuff extends Component {
+class Memes extends Component {
     render() {
         return (
             <div>
@@ -16,10 +16,9 @@ class Stuff extends Component {
                     <li>Contrary to popular belief</li>
                 </ol>
 
-                <button>CLICK ME</button>
             </div>
         );
     }
 }
 
-export default Stuff;
+export default Memes;
