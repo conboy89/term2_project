@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Memes extends Component {
     render() {
         return (
+            
             <div>
                 <h2>STUFF</h2>
                 <p>
@@ -15,7 +16,7 @@ class Memes extends Component {
                     <li>Contrary to popular belief</li>
                     <li>Contrary to popular belief</li>
                 </ol>
-
+                
             </div>
         );
     }
