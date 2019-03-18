@@ -1,12 +1,10 @@
-root{
-    height: 100vh;
-}
 
 body {
     background-color: #fff;
     margin: 0;
     max-width: 800px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 h1, h2, p, ul, li {
@@ -122,3 +120,8 @@ content h2 {
      background-color: #f2f2f2;
      padding: 20px;
 }
+
+/* form styling ends here */
+
+
+
