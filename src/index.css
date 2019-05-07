@@ -5,29 +5,61 @@ body {
     max-width: 800px;
     margin: 0 auto;
     min-height: 100%;
+    line-height: 1.6;
 }
 
 h1, h2, p, ul, li {
     font-family: sans-serif;
-}
-ul.header li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-}
-
-ul.header {
-    background-color: #111;
-}
-
-ul.header li a {
-    color: #fff;
-    font-weight: bold;
+    list-style: none;
     text-decoration: none;
-    margin: 20px 0px;
-    padding: 0;
-    width: 33%;
-    display: inline-block;
+}
+
+.logo {
+    margin: 0;
+    font-size: 18px;
+}
+
+.main-nav {
+    margin-top: 15px;
+    align-items: center;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	border-radius: 5px;
+    align-items: center;
+}
+
+.header,
+	.main-nav {
+		display: flex;
+        justify-content: space-around;
+	}
+
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+    font-weight: bold;
+}
+
+.main-nav li a{
+    text-decoration: none;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
 }
 
 button{
@@ -45,6 +77,7 @@ button{
 
 .content {
     padding: 0px 20px;
+    min-height: 750px;
 }
 
 content h2 {
@@ -62,19 +95,22 @@ content h2 {
     padding: 20px;
 }
 
-.active {
+/*.active {
     background-color: #0099ff;
-}
+}*/
 
 .footer {
     width: 800px;
     height: relative;
-    background-color: #000;
+    border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	border-radius: 5px;
     position: absolute;
 }
 
 .footer li a {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
@@ -123,6 +159,7 @@ content h2 {
 
 .cats {
     width: 200px;
+    list-style: none;
 }
 
 /* form styling ends here */

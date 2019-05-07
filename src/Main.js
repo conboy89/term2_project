@@ -12,13 +12,13 @@ class Main extends Component {
         return (
             <HashRouter>
                 <div>
-                        <div className="logo">
-                            <h1 className="text">Random Joke Website</h1>
-                        </div>
                         <nav>
                             <div className="header">
-                                <div><NavLink exact to="/">Home</NavLink></div>
-                                <div><NavLink to="/memes">Memes</NavLink></div>
+                                <h1 className="logo">Random Joke Website</h1>
+                                <ul className="main-nav">
+                                    <li><NavLink exact to="/">Home</NavLink></li>
+                                    <li><NavLink to="/memes">Memes</NavLink></li>
+                                </ul>
                             </div>
                         </nav>
                         <div className="content">
