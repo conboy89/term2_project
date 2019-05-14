@@ -6,7 +6,7 @@ const MemePresentation = ({cats}) => (
         <p>
         Take a look at some random generated images of cats just being plain old silly (cute)!
         </p>
-        <ul>
+        <ul className="catsContainer">
             {
                 cats.map(({id, url}) => <li key={id}><img className="cats" src={url}/></li>)
             }
