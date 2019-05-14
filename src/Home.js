@@ -32,11 +32,11 @@ class Home extends Component {
             
             <h2>Hello</h2>
             <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Welcome the only website you will need to break then tension in any situation. Welcome to Random Joke website. Click button below for a random daily joke to be generated that you can use to impress your friends, open a presentation or just give yourself a small laugh to start the day. What are you waiting for, click the button to start your day with a smile.
             </p>
 
             <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            While you're here, don't forget to check out our dedicated cat section. How could you not smile when looking at our random generated selection of cats for you.
             </p>
             <button onClick={this.getJoke}>CLICK ME</button>
             {this.state.joke ? <div class="jokeofday">{this.state.joke}</div> : ""}

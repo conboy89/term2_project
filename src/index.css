@@ -157,12 +157,20 @@ content h2 {
      padding: 20px;
 }
 
-.cats {
-    width: 200px;
-    list-style: none;
-}
+
 
 /* form styling ends here */
+
+/* image gallery starts here */
+
+.cats {
+    width: 100%;
+    list-style: none;
+    display: inline;
+}
+
+/* image gallery ends here */
+
 
 
 

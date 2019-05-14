@@ -2,16 +2,21 @@ import React from "react";
 
 const MemePresentation = ({cats}) => (
     <div>
-        <h2>STUFF</h2>
+        <h2>Funny Cats</h2>
         <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        Take a look at some random generated images of cats just being plain old silly (cute)!
         </p>
         <ul>
             {
                 cats.map(({id, url}) => <li key={id}><img className="cats" src={url}/></li>)
             }
         </ul>
+
+        
     </div>
+
+
+
 );
 
 export default MemePresentation;

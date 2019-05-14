@@ -17,7 +17,7 @@ class Main extends Component {
                                 <h1 className="logo">Random Joke Website</h1>
                                 <ul className="main-nav">
                                     <li><NavLink exact to="/">Home</NavLink></li>
-                                    <li><NavLink to="/memes">Memes</NavLink></li>
+                                    <li><NavLink to="/memes">Cats</NavLink></li>
                                 </ul>
                             </div>
                         </nav>
